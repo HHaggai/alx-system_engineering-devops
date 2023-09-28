@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This scrpt parse thrugh the log fyle and prnt the ip and http stats
+
+awk -F' ' '{ print $1, $9 }' apache-access.log | sort | uniq -c | sort -rn
