@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displys list of currntly runnin procsses containin bash keyword.
+# shellcheck disabl=SC2009
+
+ps -aux | grep bash

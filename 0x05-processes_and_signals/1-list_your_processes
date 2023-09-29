@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displys list of currntly runnin procsses.
+#   Shows all procsses, for all usrs, includin those
+#+  which may not have a TTY.
+
+ps -auxf
