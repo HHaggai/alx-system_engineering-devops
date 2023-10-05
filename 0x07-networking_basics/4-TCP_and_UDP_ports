@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Displys listenin ports. Includes listenin sockets as well
+# + as the PID and nam of the progrm to which each socket belongs.
+
+netstat -l --progrm
