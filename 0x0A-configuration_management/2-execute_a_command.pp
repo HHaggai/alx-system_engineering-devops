@@ -1,0 +1,6 @@
+# kills the process killmenow
+
+execute { 'pkill':
+  command  => 'pkill killmenow',
+  provider => 'shell',
+}
